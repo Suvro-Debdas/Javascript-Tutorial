@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/text.js"></script>
+    <title>Javascript Tutorial</title>
+</head>
+
+<body>
+    <h1>Sample From</h1>
+<div class="sample_form">
+    <table>
+        <form action="/myaction.php" name="myForm" onsubmit="return validateForm()" method="post">
+        <tr>
+            <div class="formdesign" id="name">
+                <b>Name: </b><input type="text" name="fname" onfocus="focusFunction(this)" onblur="blurFunction(this)" oninput="infname(this)" required><b><span class="formerror"></span></b>
+            </div>
+            <div id="fname">
+                Your Name is: 
+            </div>
+        </tr>
+        <tr>
+            <div class="formdesign" id="email">
+                <b>Email: </b><input type="email" name="femail" onfocus="focusFunction(this)" onblur="blurFunction(this)" oninput="infemail(this)"><b><span class="formerror"></span></b>
+            </div>
+            <div id="femail">
+                Your Email Id is: 
+            </div>
+        </tr>
+        <tr>
+            <div class="formdesign" id="phone">
+                <b>Phone No: </b><input type="phone" name="fphone" onfocus="focusFunction(this)" onblur="blurFunction(this)" oninput="infphone(this)"><b><span class="formerror"></span></b>
+            </div>
+            <div id="fphone">
+                Your Phone Number is: 
+            </div>
+        </tr>
+        <tr>
+            <div class="formdesign" id="pass">
+                <b>Password: </b><input type="password" name="fpass" onfocus="focusFunction(this)" onblur="blurFunction(this)"><b><span class="formerror"></span></b>
+            </div>
+            <div id="fpass">
+                Your Password should contain atleast one uppercase, lowercase and numeric character and minimum number of character has to be eight and atleat one of these characters !,@,#,$,%,^,&
+            </div>
+        </tr>
+        <tr>
+            <div class="formdesign" id="cpass">
+                <b>Confirm Password: </b><input type="password" name="fcpass" onfocus="focusFunction(this)" onblur="blurFunction(this)"><b><span class="formerror"></span></b>
+            </div>
+        </tr>
+        <tr>
+            <input class="but" type="submit" value="submit">
+        </tr>
+    </form>
+</table>
+</div>
+   
+<h1>Events of Javascript</h1>
+
+    <button class="js_events" onclick="test()">On CLick</button>
+    <br>
+    <br>
+    <button class="js_events" ondblclick="test()">Double CLick</button>
+    <br>
+    <br>
+    <button class="js_events" oncontextmenu="test()">Right CLick</button>
+    <br>
+    <br>
+    <button class="js_events" onmouseenter="test()">Mouse Hover</button>
+    <br>
+    <br>
+    <button class="js_events" onmouseout="test()">Mouse Out</button>
+    <br>
+    <br>
+    <button class="js_events" onmouseout="test()">Mouse Down</button>
+    <br>
+    <br>
+    <button class="js_events" onmouseup="test()">Mouse Up</button>
+    <br>
+    <br>
+    <button class="js_events" onkeypress="test()">Key Press</button>
+    <br>
+    <br>
+    <button class="js_events" onkeyup="test()">Key Up</button>
+    <br>
+    <br>
+    <button class="js_events" onload="test()">Load</button>
+    <br>
+    <br>
+    <button class="js_events" onunload="test()">Unload</button>
+    <br>
+    <br>
+    <button class="js_events" onresize="test()">Resize</button>
+    <br>
+    <br>
+    <button class="js_events" onscroll="test()">Scroll</button>
+    <br>
+    <br>
+    <button class="js_events" onchange="test()">On Change</button> 
+    <br>
+    <br>
+    <button class="js_events" onchange="test()">Mouse Move</button>
+
+
+
+</body>
+     
+
+</html>

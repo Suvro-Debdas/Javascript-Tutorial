@@ -1,0 +1,29 @@
+/* Javascript events */
+
+body{
+    font-family: arial;
+}
+#wrapper{
+    margin: 25px auto 0px auto;
+    width: 75%;
+}
+#wapper h1{
+    display: block;
+    background-color: #203d3a;
+    color: #fff;
+    text-align: center;
+    line-height: 75px;
+    border-radius: 20px 20px 0px 0px;
+}
+img{
+    width: 100%;
+    border-radius: 50px 50px 50px 50px;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+#block1,#block2{
+    width: 100%;
+    float: left;
+    margin-top: 25px;
+           
+}

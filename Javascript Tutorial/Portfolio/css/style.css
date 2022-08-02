@@ -1,0 +1,459 @@
+*{
+    background: #fcb103;
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url(..Portfolio//image//backgroud.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.logo{
+    color: black;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+span{
+    color: #f9004d;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a{
+    color: blueviolet;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover{
+    color: #f9004d;
+    transition: .4s;
+}
+
+.btn{
+    background-color: #f9004d;
+    color: black;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 10px;
+    transition: transform .4s;
+}
+
+.btn:hover{
+    transform: scale(1.2);
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+h1{
+    color: blue;
+    margin: 20px 0px 20px;
+    font-size: 45px;
+}
+
+h3{
+    color: brown;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+h4{
+    color: black;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.newsletter form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+
+.newsletter form input:first-child{
+    display: inline-block;
+    width:100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid #f9004d;
+    outline: none;
+    border-radius: 30px;
+}
+
+.newsletter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    padding: 15px 40px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    background-color: #f9004d;
+    color: black;
+    box-shadow: 0px 0px 5px #000, opx 0px 15px #858585;
+    top: 2px;
+    right: 0px;
+}
+
+.about{
+    background: #fcb103;
+    width: 100%;
+    padding: 100px 0px;
+}
+.about img{
+    height: 300px;
+    width: 300px;
+    margin-left: 0px;
+}
+.about-text{
+    width: 550px;
+}
+
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h2{
+    color: black;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.about-text h5{
+    color: black;
+    letter-spacing: 2px;
+    font-size: 22px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    margin-left: 20px;
+}
+
+.about-text p{
+    color: black;
+    letter-spacing: 1px;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 45px;
+    margin-left: 20px;
+}
+
+button{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 40px;
+    border-radius: 30px;
+    transition: .4s;
+    margin-left: 18px;
+}
+
+button:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+
+.service{
+    background: #fcb103;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.title h2{
+    color: black;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    font-size: 50px;
+}
+
+
+.skl_dtl{
+    font-size: 25px;
+}
+
+
+
+/*---Project Section---*/
+
+.pro{
+    text-align: center;
+    font-size: 35px;
+}
+
+.prop{
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.card_pro{
+    height: 365px;
+    width: 1000px;
+    margin: 15px;
+    position: relative;
+    font-size: 20px;
+}
+
+.card-title{
+    font-size: 30px;
+    padding-bottom: 3px;
+}
+
+.card-text{
+    padding-bottom: 20px;
+    padding-top: 3px;
+}
+
+/*---Experience Section---*/
+
+.box_exp{
+    height: 450px;
+    width: 100%;
+    border: 10px solid #000;
+}
+
+.comp1{
+    display: inline;
+    position: relative;
+    bottom: 280px;
+    left: 845px;
+}
+
+.comp2{
+    display: inline;
+    position: relative;
+    bottom: 280px;
+    left: 1000px;
+}
+
+.comp3{
+    display: inline;
+    position: relative;
+    bottom: 300px;
+    left: 1100px;
+}
+
+/*---Footer Section---*/
+
+.footer_link{
+    margin-left: 1250px;
+    margin-top: 130px;
+    margin-right: 1px;
+    font-size: 25px;
+}
+
+.copy_right{
+    margin-left: 1px;
+    font-size: medium;
+    position: relative;
+    top: 130px;
+}
+
+.hire_me{
+    text-align: center;
+}
+
+.footer{
+    margin-top: 10px;
+}
+
+.btn-two{
+    background-color: #f9004d;
+    color: black;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 10px;
+    transition: transform .4s;
+    position: relative;
+    top: 30px;
+}
+
+/*---About Section---*/
+
+.aboutp{
+    text-align: center;
+}
+
+/*---Service Section---*/
+
+.btn_ser{
+    background-color: #f9004d;
+    color: black;
+    text-decoration: none;
+    border: 1px solid transparent;
+    font-weight: bold;
+    padding: 1px 5px;
+    border-radius: 10px;
+    transition: transform .4s;
+}
+
+.card_pro_ser{
+    height: 365px;
+    width: 1000px;
+    position: relative;
+    right: 20px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

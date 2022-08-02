@@ -1,0 +1,18 @@
+/* Text Box One */
+
+#tboxone{
+    font-size: medium;
+}
+
+/* Text Box Two */
+
+#tboxtwo{
+    font-size: medium;
+}
+
+/* Submit Button */
+
+#sub_btn:hover{
+    font-size: medium;
+    color: darkred;
+}

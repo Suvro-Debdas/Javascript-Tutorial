@@ -1,0 +1,23 @@
+/* Tax Work Sheet */
+
+.Tax{
+    color: brown;
+}
+
+/* Salary Break Up */
+
+.Salary{
+    color: blue;
+}
+
+/* HRA */
+
+.HRA{
+    color: rgb(255, 0, 0);
+}
+
+/* Tax Calculation Details */
+
+.Tax_Calculation{
+    color: rgb(191, 23, 135);
+}

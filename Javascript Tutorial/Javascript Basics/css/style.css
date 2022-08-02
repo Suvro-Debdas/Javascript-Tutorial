@@ -1,0 +1,34 @@
+/* Form Validation */
+
+body{
+    padding: 10px 50px;
+}
+.formdesign{
+    font-size: 20px;
+}
+.formdesign input{
+    width: 80%;
+    border: 1px solid gray;
+    border-radius: 4px;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.but{
+    border-radius: 16px;
+    width: 80px;
+    height: 50px;
+    font-size: 20px;
+    margin-left: 525px;
+}
+.formerror{
+    color: red;
+}
+
+.sample_form{
+    width: 80%;
+    border: 5px solid black;
+    border-radius: 25px;
+}
+
